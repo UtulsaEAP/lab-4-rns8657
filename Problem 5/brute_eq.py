@@ -18,7 +18,10 @@ def brute_eq():
     e = int(input())
     f = int(input())
 
-    # YOUR CODE HERE
+    for i in range (-10, 10):
+        for j in range (-10, 10):
+            if (a * i + b * j == c and d * i + e * j == f):
+                print("x = " + str(i) + " , y = " + str(j))
     
 if __name__ == "__main__":
     brute_eq()
