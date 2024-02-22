@@ -22,6 +22,8 @@ def brute_eq():
         for j in range (-10, 10):
             if (a * i + b * j == c and d * i + e * j == f):
                 print("x = " + str(i) + " , y = " + str(j))
+            elif(i ==9 and j==9):
+                print("There is no solution")
     
 if __name__ == "__main__":
     brute_eq()
